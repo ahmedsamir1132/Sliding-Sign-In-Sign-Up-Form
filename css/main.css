@@ -224,3 +224,49 @@ input {
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);
 }
+
+@media only screen and (max-width: 768px) {
+	h1 {
+        font-size: 18px;
+    }
+
+	p {
+		font-size: 12px;
+        font-weight: 500;
+	}
+
+	span {
+		font-weight: bolder;
+	}
+
+	.social-container a {
+		margin: 0;
+		height: 25px;
+        width: 25px;
+		font-size: 14px;
+	}
+
+	input {
+		padding: 10px 10px;
+        margin: 4px 0;
+        font-size: 14px;
+	}
+
+	button {
+		font-size: 10px;
+        font-weight: bolder;
+		padding: 10px 20px;
+	}
+
+	button .ghost {
+		font-size: 9px;
+        font-weight: bolder;
+		padding: 10px 20px;
+	}
+
+	.sign-in-container #signin-btn {
+		font-size: 9px;
+        font-weight: bolder;
+		padding: 10px 20px;
+	}
+}
